@@ -1,4 +1,3 @@
-import { Greeter } from './greeter';
+import app from './examples/app';
 
-const g = new Greeter('Yang Wang');
-g.greet();
+app.renderTo('#app');
